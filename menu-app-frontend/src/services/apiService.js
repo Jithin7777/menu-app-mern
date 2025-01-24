@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL='https://menu-app-backend2.onrender.com'
+const API_URL='https://menu-app-backend-5d5v.onrender.com'
 
 // const API_URL='http://localhost:5005/api'
 // Get all menus
