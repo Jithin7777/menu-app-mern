@@ -1,0 +1,8 @@
+/* Change the toggle bar color to white */
+.custom-toggler {
+   color: white;
+  }
+  .custom-toggler .navbar-toggler-icon {
+    background-color: white;
+  }
+  

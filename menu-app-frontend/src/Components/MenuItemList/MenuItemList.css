@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .responsive-container {
+      width: 100% !important;
+      margin: 0 auto; 
+    }
+  }
+
+  .menu-item-description{
+    color: gray;
+  }
+  
