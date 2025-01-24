@@ -8,8 +8,8 @@ require('./db/connection')
 const app=express()
 
 app.use(express.json())
-app.use(cors())
-app.use('/api/menus',menuRoutes)
+app.use(cors({ origin: 'https://menu-app-frontend-494x.onrender.com' }));
+ app.use('/api/menus',menuRoutes)
 app.use('/api/menu-items', menuItemRoutes);
 const PORT=process.env.PORT || 5005 
 
